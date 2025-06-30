@@ -7,8 +7,8 @@
 Automated bean leaf disease classification by prototype machine learning models to classify three leaf conditions: angular leaf spot, bean rust or healthy.<br/>
 
 ### ▫️  PROPOSED MODELS
-Custom architecture: Bean-CNN (baseline CNN), Bean-CNN-LSTM (hybrid CNN-LSTM) <br/>
-Pretrained adaptations: EfficientNet-B7 + FC, EfficientNet-B7 + LSTM <br/>
+Custom architecture: **Bean-CNN (baseline CNN)**, **Bean-CNN-LSTM (hybrid CNN-LSTM)** <br/>
+Pretrained adaptations: **EfficientNet-B7 + FC**, **EfficientNet-B7 + LSTM** <br/>
 
 ### ▫️ DEVELOPMENT ENVIRONMENT
 Custom models were developed in Python and TensorFlow 2.17.0. Custom ML models are verified against Python 3.10.12 and 3.12.4, TensorFlow 2.16.0 and 2.17.0 on Jupyter Notebook (Windows 11, macOS Sequoia 15.0.1) and Google Colab (Linux Ubuntu 22.04 LTS).<br/>
@@ -22,7 +22,7 @@ The custom models (Bean-CNN and Bean-CNN-LSTM) were developed on the original da
 <br/>
 ▪️Data description <br/>
 <!--Training set: Original (905)<br/> Increased brightness (2715), Combination (2715), Cropping (2715), Flipping, Rotation (2715) <br/>
-Validation set: 195 <br/>
+  Validation set: 195 <br/>
 Test set: 195 <br/>-->
 
 <table>
@@ -68,5 +68,6 @@ For these experiments, we used one training set, which was expanded using the mu
 
 <br/>
 
+🔷 **Note:** Due to the data size allowance limit our data is located in the [hugging face](https://huggingface.co/datasets/hjin-r/bean_disease) repository.
 
 <!-- Any comment goes here -->
