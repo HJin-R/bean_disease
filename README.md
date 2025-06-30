@@ -11,13 +11,13 @@ Custom architecture: **Bean-CNN (baseline CNN)**, **Bean-CNN-LSTM (hybrid CNN-LS
 Pretrained adaptations: **EfficientNet-B7 + FC**, **EfficientNet-B7 + LSTM** <br/>
 
 ### ▫️ DEVELOPMENT ENVIRONMENT
-Custom models were developed in Python and TensorFlow 2.17.0. Our custom ML models are verified against Python 3.10.12 and 3.12.4, TensorFlow 2.16.0 and 2.17.0 on Jupyter Notebook (Windows 11, macOS Sequoia 15.0.1) and Google Colab (Linux Ubuntu 22.04 LTS).<br/>
+Custom models were developed in Python and TensorFlow 2.17.0. Our custom ML models are verified against Python 3.10.12 and 3.12.4, TensorFlow 2.16.0 and 2.17.0 on Jupyter Notebook (Windows 11, macOS Sequoia 15.0.1) and Google Colab (Linux Ubuntu 22.04 LTS). The further experiments with EfficientNet were carried out with PyTorch 2.6.0 on Kaggle's P100 GPU. <br/>
 
 ### ▫️ SUMMARY
-Using the [ibean dataset](https://github.com/AI-Lab-Makerere/ibean/) by Makerere AI Research Lab, we developed our models by intergrating CNN with LSTM.
+Using the [ibean dataset](https://github.com/AI-Lab-Makerere/ibean/) by Makerere AI Research Lab, we developed our models by integrating CNN with LSTM.
 
 #### 1. Initial experiments<br/>
-Five additional training sets were created using various augmentation methods: increased brightness, cropping, flipping, rotation, and the multi-technique combination.<br/> For these experiments, each training data contains 2715 images. 
+Five additional training sets were created using various augmentation methods: increased brightness, cropping, flipping, rotation, and the multi-technique combination.<br/> For these experiments, each training dataset contains 2715 images. 
 The custom models (Bean-CNN and Bean-CNN-LSTM) were developed on the original dataset, and then trained further on all augmented sets.<br/>
 Each Jupyter Notebook contains one model development process and uses the identical code with different training sets. <br/> 
 This repo contains 3 notebook files showing the custom model development: <br/>
