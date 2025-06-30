@@ -30,11 +30,20 @@ original Bean-CNN (905 training samples), original Bean-CNN-LSTM (905 training s
     <th>Set</th><th>Sample size</th>
   </tr>
   <tr>
-    <td> Training</td><td>Original (905)<br/> 
-      Increased brightness (2715)<br/> 
-      Combination (2715)<br/> Cropping (2715)<br/> 
-      Flipping (2715)<br/>
-      Rotation (2715)</td>
+    <td>Training-Original<br/>
+    Training-Increased brightness<br/> 
+    Training-Combination<br/> 
+    Training-Cropping<br/> 
+    Training-Flipping<br/> 
+    Training-Rotation<br/> 
+    </td>
+    <td>905<br/> 
+      2715<br/> 
+      2715<br/> 
+      2715<br/> 
+      2715<br/> 
+      2715<br/> 
+    </td>
   </tr>
   <tr>
     <td> Validation</td> <td>195</td>
