@@ -4,7 +4,7 @@
 # bean_disease
 ## Deep learning models for image-based bean leaf disease classification
 
-Automated bean leaf disease classification (https://doi.org/10.48550/arXiv.2604.13835) by prototype machine learning models to classify three leaf conditions: angular leaf spot, bean rust or healthy.<br/>
+Automated [bean leaf disease classification](https://doi.org/10.48550/arXiv.2604.13835) by prototype machine learning models to classify three leaf conditions: angular leaf spot, bean rust or healthy.<br/>
 
 ### ▫️  PROPOSED MODELS
 Custom architecture: **Bean-CNN (baseline CNN)**, **Bean-CNN-LSTM (hybrid CNN-LSTM)** <br/>
