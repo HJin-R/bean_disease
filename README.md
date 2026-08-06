@@ -56,7 +56,7 @@ original Bean-CNN (905 training samples), original Bean-CNN-LSTM (905 training s
 
 #### 2. Extended experiments <br/>
 The pretrained models were modified through fine-tuning process, and titled as EfficientNet-B7+FC and EfficientNet-B7+LSTM.
-For these experiments, we used one training set, which was expanded by applying multiple augmentation methods (rotation, flips, scaling, blurring and contrast/brightness adjustment).<br/>
+For these experiments, we used one training set, which was expanded by applying multiple augmentation methods (rotation, flips, scaling, blurring and contrast/brightness adjustment). The augmented dataset is available on [IEEDataPort](https://dx.doi.org/10.21227/4k7y-vs03) and on [Kaggle](https://www.kaggle.com/datasets/akinyemijoseph/ibean-aug) <br/>
 <br/>
 ▪️Data description
 <table>
