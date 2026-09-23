@@ -64,7 +64,7 @@ For these experiments, we used one training set, which was expanded by applying 
     <th>Set</th><th>Sample size</th>
   </tr>
   <tr>
-    <td> Training</td><td>41,300</td>
+    <td> Training</td><td>41,360</td>
   </tr>
   <tr>
     <td> Validation</td> <td>5,320</td>
