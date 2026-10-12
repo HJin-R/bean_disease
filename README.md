@@ -81,6 +81,8 @@ For these experiments, we used one training set, which was expanded by applying 
 
 <br/>
 
+If you use our code or dataset, please cite our [journal paper](https://www.mdpi.com/2313-433X/12/10/468).
+
 🔷 **Important Note:** Due to the data size allowance limit, our data is stored in the [Huggingface](https://huggingface.co/datasets/hjin-r/bean_disease) repository.
 
 <!-- Any comment goes here -->
